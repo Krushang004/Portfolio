@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krushang Prajapati — Portfolio</title>
+    <meta name="description"
+        content="Full Stack Developer portfolio of Krushang Prajapati — React, Node.js, Python, Django, cybersecurity and more.">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <!-- ===== LEFT SIDEBAR ===== -->
+        <aside class="sidebar">
+            <div class="sidebar-inner">
+
+                <!-- Avatar -->
+                <div class="avatar-wrap">
+                    <img src="./avatar.png" alt="Krushang Prajapati" class="avatar-img" id="avatarImg"
+                        onerror="this.style.display='none';document.getElementById('avatarFallback').style.display='flex'">
+                    <div class="avatar-fallback" id="avatarFallback">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+
+                <!-- Name & Role -->
+                <h1 class="sidebar-name">Krushang Prajapati</h1>
+                <span class="sidebar-role">Full Stack Developer</span>
+
+                <div class="sidebar-divider"></div>
+
+                <!-- Contact Info -->
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                        <div class="contact-detail">
+                            <span class="contact-label">EMAIL</span>
+                            <span class="contact-value">krushangrprajapati<br>@gmail.com</span>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <span class="contact-icon"><i class="fas fa-phone"></i></span>
+                        <div class="contact-detail">
+                            <span class="contact-label">PHONE</span>
+                            <span class="contact-value">+91 9316280454</span>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <div class="contact-detail">
+                            <span class="contact-label">LOCATION</span>
+                            <span class="contact-value">India</span>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <span class="contact-icon"><i class="fab fa-github"></i></span>
+                        <div class="contact-detail">
+                            <span class="contact-label">GITHUB</span>
+                            <span class="contact-value"><a href="https://github.com/Krushang004"
+                                    target="_blank">Krushang004</a></span>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <span class="contact-icon"><i class="fab fa-linkedin"></i></span>
+                        <div class="contact-detail">
+                            <span class="contact-label">LINKEDIN</span>
+                            <span class="contact-value"><a
+                                    href="https://www.linkedin.com/in/krushang-prajapati-5b4a97324/"
+                                    target="_blank">Krushang Prajapati</a></span>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </aside>
+
+        <!-- ===== MAIN CONTENT ===== -->
+        <main class="main-panel">
+
+            <!-- Tab Navigation -->
+            <nav class="tab-nav">
+                <button class="tab-btn active" data-tab="about">About</button>
+                <button class="tab-btn" data-tab="resume">Resume</button>
+                <button class="tab-btn" data-tab="portfolio">Portfolio</button>
+                <button class="tab-btn" data-tab="contact">Contact</button>
+            </nav>
+
+            <!-- ===== ABOUT TAB ===== -->
+            <section id="tab-about" class="tab-section active">
+                <h2 class="section-heading">About Me</h2>
+                <div class="section-rule"></div>
+
+                <p class="about-bio">
+                    I'm a Full Stack Developer from India, passionate about building scalable web applications and
+                    creative digital solutions. Skilled in React, Node.js, Python, and cloud technologies, I love
+                    transforming complex challenges into elegant, user-friendly products.
+                </p>
+                <p class="about-bio">
+                    I thrive in collaborative environments, enjoy contributing to open-source, and continuously explore
+                    new technologies like AI and cybersecurity. Beyond coding, I'm passionate about learning,
+                    experimenting with side projects, and sharing knowledge with the community.
+                </p>
+
+                <!-- Stats Row -->
+                <div class="stats-row">
+                    <div class="stat-box">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-num">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+
+                <h3 class="subsection-heading">What I'm Doing</h3>
+
+                <div class="service-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-code"></i></div>
+                        <div class="service-text">
+                            <h4>Web Development</h4>
+                            <p>High-quality full-stack development using React, Node.js, Django and modern tools.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+                        <div class="service-text">
+                            <h4>Cybersecurity</h4>
+                            <p>Building honeypot servers, security tools, and analyzing network threats.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-robot"></i></div>
+                        <div class="service-text">
+                            <h4>AI & Automation</h4>
+                            <p>Offline AI assistants, NLP pipelines, and intelligent automation systems.</p>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="service-text">
+                            <h4>Mobile Apps</h4>
+                            <p>Cross-platform mobile application development with React Native and Expo.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== RESUME TAB ===== -->
+            <section id="tab-resume" class="tab-section">
+                <h2 class="section-heading">Resume</h2>
+                <div class="section-rule"></div>
+
+                <!-- Education -->
+                <div class="resume-block">
+                    <h3 class="resume-block-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2024-2028</span>
+                                <h4>Bachelor of Technology — Electronics and Communication Engineering </h4>
+                                <p>Currently pursuing B.Tech with a focus on Electronics and Communication Engineering.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2022 — 2024</span>
+                                <h4>Higher Secondary Education (Science)</h4>
+                                <p>Completed HSC with Physics, Chemistry and Mathematics as a majoring subject.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="resume-block">
+                    <h3 class="resume-block-title"><i class="fas fa-briefcase"></i> Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023 — Present</span>
+                                <h4>Freelance Full Stack Developer</h4>
+                                <p>Building web applications, comparison platforms, and automation tools for various
+                                    clients using React, Django, and Node.js.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023</span>
+                                <h4>Open Source Contributor</h4>
+                                <p>Contributed to cybersecurity and AI open-source projects on GitHub, including
+                                    honeypot servers and offline AI assistants.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="resume-block">
+                    <h3 class="resume-block-title"><i class="fas fa-layer-group"></i> Skills</h3>
+
+                    <div class="skill-section">
+                        <p class="skill-section-label">Frontend</p>
+                        <div class="skill-badge-grid">
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/react/ffffff" alt="React">
+                                <span>React</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/javascript/ffffff" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/html5/ffffff" alt="HTML5">
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/css3/ffffff" alt="CSS3">
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/tailwindcss/ffffff" alt="Tailwind CSS">
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/typescript/ffffff" alt="TypeScript">
+                                <span>TypeScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-section">
+                        <p class="skill-section-label">Backend</p>
+                        <div class="skill-badge-grid">
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/python/ffffff" alt="Python">
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/django/ffffff" alt="Django">
+                                <span>Django</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/nodedotjs/ffffff" alt="Node.js">
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/mongodb/ffffff" alt="MongoDB">
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/fastapi/ffffff" alt="REST APIs">
+                                <span>REST APIs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-section">
+                        <p class="skill-section-label">Tools &amp; Other</p>
+                        <div class="skill-badge-grid">
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/git/ffffff" alt="Git">
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/amazonaws/ffffff" alt="AWS">
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/figma/ffffff" alt="Figma">
+                                <span>Figma</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/linux/ffffff" alt="Linux">
+                                <span>Linux</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/pytorch/ffffff" alt="ML / NLP">
+                                <span>ML / NLP</span>
+                            </div>
+                            <div class="skill-badge">
+                                <img src="https://cdn.simpleicons.org/wireshark/ffffff" alt="Cybersecurity">
+                                <span>Cybersecurity</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- ===== PORTFOLIO TAB ===== -->
+            <section id="tab-portfolio" class="tab-section">
+                <h2 class="section-heading">Portfolio</h2>
+                <div class="section-rule"></div>
+
+                <div class="project-grid">
+
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <i class="fab fa-python"></i>
+                            <div class="project-overlay">
+                                <a href="https://github.com/Krushang004/ODOO" target="_blank" class="overlay-link"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>ODOO</h4>
+                            <p>Custom ODOO module development — extending the open-source ERP/CRM platform with tailored
+                                business logic.</p>
+                            <div class="project-tags">
+                                <span>TypeScript</span><span>ODOO</span><span>ERP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <i class="fas fa-balance-scale"></i>
+                            <div class="project-overlay">
+                                <a href="https://github.com/Krushang004/Compare-website" target="_blank"
+                                    class="overlay-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Compare Website</h4>
+                            <p>Comparison platform that helps people find the best products across different e-commerce
+                                platforms.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="project-overlay">
+                                <a href="https://github.com/Krushang004/Honey-pot" target="_blank"
+                                    class="overlay-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Honey Pot Server</h4>
+                            <p>Lightweight Python HTTP honeypot that mimics a vulnerable server and logs all incoming
+                                requests for security research.</p>
+                            <div class="project-tags">
+                                <span>Python</span><span>Sockets</span><span>Security</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <i class="fas fa-robot"></i>
+                            <div class="project-overlay">
+                                <a href="https://github.com/Krushang004/Offline-AI-Assistant" target="_blank"
+                                    class="overlay-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Offline AI Assistant</h4>
+                            <p>Python + Llama-based AI assistant that helps developers with code — runs fully offline to
+                                keep data secure.</p>
+                            <div class="project-tags">
+                                <span>Python</span><span>Llama</span><span>NLP</span><span>ML</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <i class="fas fa-user-circle"></i>
+                            <div class="project-overlay">
+                                <a href="https://github.com/Krushang004/Portfolio" target="_blank"
+                                    class="overlay-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Portfolio Website</h4>
+                            <p>This personal portfolio — a responsive, dark-themed single-page site showcasing projects,
+                                skills, and contact info.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <i class="fas fa-server"></i>
+                            <div class="project-overlay">
+                                <a href="https://github.com/Krushang004/server" target="_blank" class="overlay-link"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Server</h4>
+                            <p>A JavaScript-based backend server project — REST API implementation with routing and
+                                request handling.</p>
+                            <div class="project-tags">
+                                <span>JavaScript</span><span>Node.js</span><span>REST API</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ===== CONTACT TAB ===== -->
+            <section id="tab-contact" class="tab-section">
+                <h2 class="section-heading">Contact</h2>
+                <div class="section-rule"></div>
+
+                <p class="contact-intro">I'm always open to new opportunities, exciting projects, and collaborations.
+                    Drop me a message!</p>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="c-name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="c-email" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="c-subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="c-message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
